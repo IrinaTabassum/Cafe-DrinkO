@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>heads}}
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-7 d-block m-auto">
+         <h2 class="text-bold">Registre Hear</h2>
+        </div>
+
+    </div>
+
+  
+    <form action="/register" method="POST">
+  <div class="form-row">
+      <div class="form-group col-md-7 d-block m-auto">
+      <label for="inputEmail4">Fast name</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Fast name" name="fname">
+    </div>
+    <div class="form-group col-md-7 d-block m-auto">
+      <label for="inputEmail4">last name</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Last name" name="lname">
+    </div>
+    <div class="form-group col-md-7 d-block m-auto">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+    </div>
+    
+    
+  <div class="form-group col-md-7 d-block m-auto">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="password">
+    </div>
+    <div class="form-group col-md-7 d-block m-auto">
+      <label for="inputPassword4">Conform Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Conform Password" name="cpassword">
+    </div>
+    <div class="form-group col-md-7 d-block m-auto">
+  <button type="submit" class="btn">Submit</button>
+  </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>heads}}
+</head>
+
+<body>
+
+
+  <div>
+    <h2>Write a Note for us</h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-block m-auto">
+
+      <form action="/contuct" method="POST" class="form">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control cus-form" id="mane" placeholder="Your name" name="name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control cus-form" id="email" placeholder="Enter email" name="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text"></label>
+          <textarea id="text" class="form-control cus-form" name="textarea" rows="4" cols="50"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn cust-buton">Submit</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
